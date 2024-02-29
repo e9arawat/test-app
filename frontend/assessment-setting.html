@@ -51,8 +51,19 @@
     
                     <label class="form-label text-light" for="question"><strong>Duration (minutes)</strong></label>
                     <input type="number" class="form-control">
-    
-                    <div class="p-2">
+
+<br>
+                    <div class="dropdown">
+                        <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Status
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Active</a></li>
+                          <li><a class="dropdown-item" href="#">Inactive</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="p-2 d-flex justify-content-end">
                         <a class="btn btn-success" href="">Update</a>
                     </div>
                 </form>
